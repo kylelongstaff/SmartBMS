@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background">
+
+    <TextView
+        android:id="@+id/txtFETtemp2"
+        android:layout_width="190sp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/segment7"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="190sp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="8dp"
+        android:text="SOC %"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFETtemp2" />
+
+    <ImageButton
+        android:id="@+id/imgbtnBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth" />
+
+    <TextView
+        android:id="@+id/txtVoltageReading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/segment7"
+        android:text="00"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="140dp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabelVolts" />
+
+    <TextView
+        android:id="@+id/txtLabelVolts"
+        android:layout_width="63dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/main_volts"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtVoltageReading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgRecording"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAmpsReading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/segment7"
+        android:text="00"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabelAmps" />
+
+    <TextView
+        android:id="@+id/txtLabelAmps"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="0sp"
+        android:layout_marginEnd="0sp"
+        android:text="@string/main_amps"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtAmpsReading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtVoltageReading" />
+
+    <TextView
+        android:id="@+id/txtWattsReading"
+        android:layout_width="190sp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/segment7"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAmpsReading" />
+
+    <TextView
+        android:id="@+id/txtAmpHoursReading"
+        android:layout_width="190sp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/segment7"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAmpsReading" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="190sp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/main_Watts"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWattsReading" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="190sp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/main_AHremain"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAmpHoursReading" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="90sp"
+        android:layout_height="22sp"
+        android:layout_marginStart="0sp"
+        android:layout_marginEnd="0sp"
+        android:text="@string/main_elapsedTime"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtViewElapsedTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtViewElapsedTime"
+        android:layout_width="90sp"
+        android:layout_height="22sp"
+        android:layout_marginStart="0sp"
+        android:layout_marginEnd="0sp"
+        android:fontFamily="@font/segment7"
+        android:text="00:00:00"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDebugInfo"
+        android:layout_width="359dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="-"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewElapsedTime" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imgbtnAppSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:src="@mipmap/settings" />
+
+        <ImageButton
+            android:id="@+id/imgbtnGPS"
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:background="@color/cardview_light_background"
+            android:src="@mipmap/gps" />
+
+        <ImageButton
+            android:id="@+id/imgbtnSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:src="@mipmap/summary" />
+
+        <ImageButton
+            android:id="@+id/imgbtnChargeReadings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:src="@mipmap/chgbatt" />
+
+        <ImageButton
+            android:id="@+id/btnBMScontrols"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:src="@mipmap/settings2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtFETtemp"
+        android:layout_width="190sp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/segment7"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="190sp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:text="Temp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFETtemp" />
+
+    <ImageButton
+        android:id="@+id/btnAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/cardview_light_background"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@mipmap/alarm" />
+
+    <ImageView
+        android:id="@+id/imgRecording"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgbtnBluetooth"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/recording" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

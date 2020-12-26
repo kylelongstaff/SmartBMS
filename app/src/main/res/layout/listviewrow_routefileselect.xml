@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background">
+
+    <ImageButton
+        android:id="@+id/imgbtnShowMap"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:background="@mipmap/map"
+        android:focusable="false"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/txtRouteFilename"
+        app:layout_constraintTop_toTopOf="@+id/txtRouteFilename" />
+
+    <TextView
+        android:id="@+id/txtRouteFilename"
+        android:layout_width="205dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@color/cardview_light_background"
+        android:clickable="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chkDeleteRouteFile"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="end"
+        android:theme="@style/checkBoxStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toEndOf="@+id/imgbtnShowChart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgbtnShowChart"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/graphs"
+        android:focusable="false"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/imgbtnShowMap"
+        app:layout_constraintTop_toTopOf="@+id/txtRouteFilename" />
+</androidx.constraintlayout.widget.ConstraintLayout>

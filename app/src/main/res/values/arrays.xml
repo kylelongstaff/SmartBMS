@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BmsSettingNames">
+        <item>Cell over-voltage alarm</item>
+        <item>Cell under-voltage alarm</item>
+        <item>Cell over-voltage protection</item>
+        <item>Cell under-voltage protection</item>
+        <item>Cell over-voltage recovery</item>
+        <item>Cell under-voltage recovery</item>
+        <item>Maximum battery voltage</item>
+        <item>Minimum battery voltage</item>
+        <item>Maximum charge current</item>
+        <item>Charge over-current delay</item>
+        <item>Battery over-current protection</item>
+        <item>Battery over-current delay</item>
+        <item>Cell balance end voltage</item>
+        <item>Cell balance start voltage</item>
+        <item>Cell balance difference</item>
+        <item>Cell balance current</item>
+        <item>Cell reference voltage</item>
+        <item>Current calibration factor</item>
+        <item>Maximum startup current</item>
+        <item>Short-circuit protection current</item>
+        <item>Short-circuit protection delay</item>
+        <item>Automatic standby time</item>
+        <item>Battery voltage adjustment</item>
+        <item>Number of cells</item>
+        <item>Charge max temp protection</item>
+        <item>Charge max temp recovery</item>
+        <item>Battery max temp protection</item>
+        <item>Battery max temp recovery</item>
+        <item>Power MOSFET max temp protection</item>
+        <item>Power MOSFET max temp recovery</item>
+        <item>Charge low temp protection</item>
+        <item>Charge low temp recovery</item>
+        <item>Battery minimum temp</item>
+        <item>Battery minimum temp recovery</item>
+        <item>Battery total capacity</item>
+        <item>Battery reserve capacity</item>
+        <item>Total circulating capacity</item>
+        <item>Tyre circumference</item>
+        <item>Magnet pulses</item>
+        <item>Connection resistance01</item>
+        <item>Connection resistance02</item>
+        <item>Connection resistance03</item>
+        <item>Connection resistance04</item>
+        <item>Connection resistance05</item>
+        <item>Connection resistance06</item>
+        <item>Connection resistance07</item>
+        <item>Connection resistance08</item>
+        <item>Connection resistance09</item>
+        <item>Connection resistance10</item>
+        <item>Connection resistance11</item>
+        <item>Connection resistance12</item>
+        <item>Connection resistance13</item>
+        <item>Connection resistance14</item>
+        <item>Connection resistance15</item>
+        <item>Connection resistance16</item>
+        <item>Connection resistance17</item>
+        <item>Connection resistance18</item>
+        <item>Connection resistance19</item>
+        <item>Connection resistance20</item>
+        <item>Connection resistance21</item>
+        <item>Connection resistance22</item>
+        <item>Connection resistance23</item>
+        <item>Connection resistance24</item>
+    </string-array>
+    <string-array name="ChargeTitles">
+        <item>Battery Voltage</item>
+        <item>Charge Current</item>
+        <item>Remaining Capacity</item>
+        <item>Wattage</item>
+        <item>Highest Cell Voltage</item>
+        <item>Lowest Cell Voltage</item>
+        <item>Average Cell Voltage</item>
+        <item>High/Low Difference</item>
+        <item>MOSFET Temp</item>
+        <item>Balance Temp</item>
+        <item>Temp Sensor 1</item>
+        <item>Temp Sensor 2</item>
+        <item>Temp Sensor 3</item>
+        <item>Temp Sensor 4</item>
+        <item>Call 01</item>
+        <item>COll 02</item>
+        <item>Cell 03</item>
+        <item>Cell 04</item>
+        <item>Cell 05</item>
+        <item>Cell 06</item>
+        <item>Cell 07</item>
+        <item>Cell 08</item>
+        <item>Cell 09</item>
+        <item>Cell 10</item>
+        <item>Cell 11</item>
+        <item>Cell 12</item>
+        <item>Cell 13</item>
+        <item>Cell 14</item>
+        <item>Cell 15</item>
+        <item>Cell 16</item>
+        <item>Cell 17</item>
+        <item>Cell 18</item>
+        <item>Cell 19</item>
+        <item>Cell 20</item>
+        <item>Cell 21</item>
+        <item>Cell 22</item>
+        <item>Cell 23</item>
+        <item>Cell 24</item>
+        <item>Cell 25</item>
+        <item>Cell 26</item>
+        <item>Cell 27</item>
+        <item>Cell 28</item>
+        <item>Cell 29</item>
+        <item>Cell 30</item>
+        <item>Cell 31</item>
+        <item>Cell 32</item>
+        <item>Electric current1</item>
+        <item>Electric current</item>
+        <item>Electric current</item>
+        <item>Percentage of remaining electricity</item>
+        <item>Battery physical capacity 1</item>
+        <item>Battery physical capacity 2</item>
+        <item>Battery physical capacity 3</item>
+        <item>Battery physical capacity 4</item>
+        <item>Battery residual capacity</item>
+        <item>Battery residual capacity</item>
+        <item>Battery residual capacity</item>
+        <item>Battery residual capacity</item>
+        <item>Total battery cycle capacity</item>
+        <item>Total battery cycle capacity</item>
+        <item>Total battery cycle capacity</item>
+        <item>Total battery cycle capacity</item>
+        <item>Accumulate from boot</item>
+        <item>Accumulate from boot</item>
+        <item>Accumulate from boot</item>
+        <item>Accumulate from boot</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Charging MOS pipe status flag</item>
+        <item>Discharge MOS tube status flag</item>
+        <item>Status flag</item>
+        <item>Tire length</item>
+        <item>Tire length</item>
+        <item>Pulse times per week</item>
+        <item>Pulse times per week</item>
+        <item>Relay switch</item>
+        <item>Current power</item>
+        <item>Current power</item>
+        <item>Current power</item>
+        <item>Current power</item>
+        <item>Maximum number of individual strings</item>
+        <item>Highest monomer</item>
+        <item>Highest monomer</item>
+        <item>Minimum monomer string</item>
+        <item>Minimum monomer</item>
+        <item>Minimum monomer</item>
+        <item>average value</item>
+        <item>average value</item>
+        <item>Effective battery quantity</item>
+        <item>The voltage between the D-S poles of the discharge tube is detected</item>
+        <item>The voltage between the D-S poles of the discharge tube is detected</item>
+        <item>Discharge MOS tube drive voltage</item>
+        <item>Discharge MOS tube drive voltage</item>
+        <item>Charging MOS tube drive voltage</item>
+        <item>Charging MOS tube drive voltage</item>
+        <item>The initial value of the comparator is detected when the current is 0</item>
+        <item>The initial value of the comparator is detected when the current is 0</item>
+        <item>The control equilibrium corresponds to 1 equilibria</item>
+        <item>The control equilibrium corresponds to 1 equilibria</item>
+        <item>The control equilibrium corresponds to 1 equilibria</item>
+        <item>The control equilibrium corresponds to 1 equilibria</item>
+        <item>system log</item>
+        <item>system log</item>
+        <item>Checksum 1</item>
+        <item>Checksum 2</item>
+    </string-array>
+    <string-array name="LiveTitles">
+        <item>Voltage</item>
+        <item>Current</item>
+        <item>Remain</item>
+        <item>Watts</item>
+        <item>MOSFET</item>
+        <item>Balance</item>
+        <item>Temp 1</item>
+        <item>Temp 2</item>
+        <item>Temp 3</item>
+        <item>Temp 4</item>
+        <item>Electric current1</item>
+        <item>Electric current</item>
+        <item>Electric current</item>
+        <item>Percentage of remaining electricity</item>
+        <item>Battery physical capacity 1</item>
+        <item>Battery physical capacity 2</item>
+        <item>Battery physical capacity 3</item>
+        <item>Battery physical capacity 4</item>
+        <item>Battery residual capacity</item>
+        <item>Battery residual capacity</item>
+        <item>Battery residual capacity</item>
+        <item>Battery residual capacity</item>
+        <item>Total battery cycle capacity</item>
+        <item>Total battery cycle capacity</item>
+        <item>Total battery cycle capacity</item>
+        <item>Total battery cycle capacity</item>
+        <item>Accumulate from boot</item>
+        <item>Accumulate from boot</item>
+        <item>Accumulate from boot</item>
+        <item>Accumulate from boot</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Actual temperature</item>
+        <item>Charging MOS pipe status flag</item>
+        <item>Discharge MOS tube status flag</item>
+        <item>Status flag</item>
+        <item>Tire length</item>
+        <item>Tire length</item>
+        <item>Pulse times per week</item>
+        <item>Pulse times per week</item>
+        <item>Relay switch</item>
+        <item>Current power</item>
+        <item>Current power</item>
+        <item>Current power</item>
+        <item>Current power</item>
+        <item>Maximum number of individual strings</item>
+        <item>Highest monomer</item>
+        <item>Highest monomer</item>
+        <item>Minimum monomer string</item>
+        <item>Minimum monomer</item>
+        <item>Minimum monomer</item>
+        <item>average value</item>
+        <item>average value</item>
+        <item>Effective battery quantity</item>
+        <item>The voltage between the D-S poles of the discharge tube is detected</item>
+        <item>The voltage between the D-S poles of the discharge tube is detected</item>
+        <item>Discharge MOS tube drive voltage</item>
+        <item>Discharge MOS tube drive voltage</item>
+        <item>Charging MOS tube drive voltage</item>
+        <item>Charging MOS tube drive voltage</item>
+        <item>The initial value of the comparator is detected when the current is 0</item>
+        <item>The initial value of the comparator is detected when the current is 0</item>
+        <item>The control equilibrium corresponds to 1 equilibria</item>
+        <item>The control equilibrium corresponds to 1 equilibria</item>
+        <item>The control equilibrium corresponds to 1 equilibria</item>
+        <item>The control equilibrium corresponds to 1 equilibria</item>
+        <item>system log</item>
+        <item>system log</item>
+        <item>Checksum 1</item>
+        <item>Checksum 2</item>
+    </string-array>
+    <string-array name="bmsSettingHelp">
+        <item>When the voltage of any cell goes above this voltage, the internal alarm in the BMS will sound. This will not disable input power, it only sounds the alarm.</item>
+        <item>When the voltage of any cell goes below this voltage, the internal alarm in the BMS will sound. This will not disable output power, it only sounds the alarm.</item>
+        <item>"When the voltage of any cell reaches this point, the BMS will display 'Cell overvoltage' and disable input power until the voltage of the cell drops below 'Cell over-voltage recovery'. This may come into play if you have a full battery and regen is enabled."</item>
+        <item>"When the voltage of any cell drops below this point, it will display 'Cell low voltage' and disable output power until the voltage of the cell rises above 'Cell under-voltage recovery'."</item>
+        <item>"When the voltage of any cell goes above 'Cell over-voltage protection' it must drop below this point before input power will resume."</item>
+        <item>When the voltage of all cells are above this value, output power will resume. This is the absolute minimum voltage at which your cells can be discharged to.</item>
+        <item>When the total battery voltage reaches this point, input power will be disabled. This the absolute maximum voltage at which your battery will function.</item>
+        <item>When the total battery voltage drops below this point, output power will be disabled. This is the absolute minimum voltage at which your battery will function.</item>
+        <item>When the input current rises above this point, input power will be cut. This should be set to the highest current your battery can handle. Also, consider regen braking current which is sometimes higher than charge current.</item>
+        <item>"When the input current rise over 'Maximum charge current' for X seconds, the BMS will disable input power."</item>
+        <item>This should be set to the maximum current that the battery and controller can supply.</item>
+        <item>"When the current rises over 'Power overcurrent protection' for X seconds, output power will be disabled."</item>
+        <item>This is the maximum voltage that cells will balance. Set this slightly above the maximum voltage that your cells will handle.</item>
+        <item>"This is the minimum voltage that cells will balance. Set this to 0.1v to 0.5v below the 'Balance end voltage'"</item>
+        <item>If the voltage difference between cells is greater than this, balancing will start</item>
+        <item>This is the cell balance current. The higher you set this, the more heat will be generated and the more likely that the BMS will overheat and stop balancing.</item>
+        <item>This is the cell reference voltage - Measure the voltage of a cell with a multimeter and adjust this value to ensure that the BMS displays the correct value.</item>
+        <item>Used to calibrate the displayed current. Start with the maximum your BMS can handle and adjust from there</item>
+        <item>This is the maximum current your BMS can handle at startup power (Must be lower than 100A)</item>
+        <item>This is the short-circuit protection current. Recommended to set this to zero (disabled).</item>
+        <item>"How long (Milliseconds) the 'Short-circuit protection current' can go over the maximum."</item>
+        <item>"When the BMS detects no current, it will go into standby.
+ This will not turn the BMS off,
+ it only puts it into sleep mode and disables input and output power."</item>
+        <item>This is the battery reference voltage - Measure the voltage of the entire battery with a multimeter and adjust this accordingly. Start at around 3330.</item>
+        <item>This is the total amount of cells you have connected in series.</item>
+        <item>This is the maximum temperature that the BMS can reach before it will disable charging.</item>
+        <item>If the BMS has disabled charging due to an over-temperature trigger, it will resume charge when the temperature drops to this level</item>
+        <item>When running, how hot your battery can get before the BMS cuts out</item>
+        <item>If the temp of the battery makes the BMS cut out, when it goes below this temp, it will re-enable it</item>
+        <item>If the MOSFETs go above this temp the BMS will cut out</item>
+        <item>If the MOSFET max temp is reached and the BMS cuts out, it will resume when the temp reaches this level</item>
+        <item>Do not charge the battery if the temp is lower than this</item>
+        <item>When the battery temp rises above this, resume charging</item>
+        <item>If the battery is lower than this, do not arm BMS</item>
+        <item>"If the BMS will not charge because the battery is lower than 'Batt protection low temp', wait until the temp increases to this"</item>
+        <item>Total capacity of the whole battery (Add all the parallel cells together)</item>
+        <item>How much should be left in the battery before cut-off (LiPo batteries should be 80% of the total capacity)</item>
+        <item>This is good for battery life and not recommended to set it (leave it at 0.0)</item>
+        <item>"The circumference (MM) of the driven wheel - used to calculate speed and distance travelled.
+This is used when a hall sensor is connected to the display"</item>
+        <item>How many pulses there are per revolution of the wheel. This is the count of magnets divided by 2</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+        <item>Resistance of copper is connected between the battery and the battery:X below 65535</item>
+    </string-array>
+    <string-array name="charge_ch_mos_value">
+        <item>Shut Down</item>
+        <item>Charge Enabled</item>
+        <item>Cell over-voltage</item>
+        <item>Over-current protection</item>
+        <item>Battery full</item>
+        <item>Current overload</item>
+        <item>Battery over-temp</item>
+        <item>MOSFET over-temp</item>
+        <item>Current abnormal</item>
+        <item>Battery cell dropped</item>
+        <item>Motherboard over-temp</item>
+        <item>Unknown</item>
+        <item>Unknown</item>
+        <item>MOSFET abnormality</item>
+        <item>Wait</item>
+        <item>Manually stopped</item>
+        <item>Two over-voltage</item>
+        <item>Low temp protection</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="charge_dis_mos_value">
+        <item>Shut Down</item>
+        <item>Output Enabled</item>
+        <item>Cell under-voltage</item>
+        <item>Over-current protection</item>
+        <item>Unknown</item>
+        <item>Battery voltage too low</item>
+        <item>Battery over temperature</item>
+        <item>MOSFET over temperature</item>
+        <item>Current abnormal</item>
+        <item>Battery cell dropped</item>
+        <item>Mainboard over-temp</item>
+        <item>Charge enabled</item>
+        <item>Short circuit protection</item>
+        <item>Discharge MOSFET abnormality</item>
+        <item>Abnormal start</item>
+        <item>Manually stopped</item>
+        <item>Two under-voltage</item>
+        <item>Low temperature protection</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="charge_j_h_value">
+        <item>Shut down</item>
+        <item>Balance limit</item>
+        <item>Balancing cells</item>
+        <item>Balance over temperature</item>
+        <item>Balancing cells</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+    </string-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="dis_mos_value_live">
+        <item>Disabled</item>
+        <item>Enabled</item>
+        <item>Cell undervolt</item>
+        <item>Over-current</item>
+        <item>Unknown</item>
+        <item>Batt low</item>
+        <item>Battery over-temp</item>
+        <item>Power over-temp</item>
+        <item>Current abnormal</item>
+        <item>Dropped cell</item>
+        <item>MOSFET over-temp</item>
+        <item>Charge on</item>
+        <item>Short circuit protection</item>
+        <item>Discharge MOSFET abnormality</item>
+        <item>Abnormal start</item>
+        <item>Stopped</item>
+        <item>Two under-voltage</item>
+        <item>Low temp</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+        <item>" "</item>
+    </string-array>
+    <string-array name="pref_SpeedUnits_list_titles">
+        <item>mps</item>
+        <item>kph</item>
+        <item>mph</item>
+    </string-array>
+    <string-array name="pref_SpeedUnits_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="preloaded_fonts">
+        <item>@font/caveat_brush</item>
+    </array>
+</resources>

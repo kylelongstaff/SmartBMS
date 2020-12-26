@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_autotrack_enable"
+        android:summary="@string/pref_description_GPSAutoTrack"
+        android:title="@string/pref_title_EnableGPSAutoTrack" />
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="edit_text_amps_start_gps"
+        android:numeric="integer"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        android:textColor="@android:color/white"
+        android:title="@string/pref_amps_start_gps" />
+    <EditTextPreference
+        android:defaultValue="5"
+        android:key="edit_text_gps_start_ampseconds"
+        android:numeric="integer"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        android:title="@string/pref_amps_start_seconds" />
+    <EditTextPreference
+        android:defaultValue="600"
+        android:key="edit_text_gps_end_ampseconds"
+        android:numeric="integer"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_amps_end_seconds" />
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/pref_SpeedUnits_list_titles"
+        android:entryValues="@array/pref_SpeedUnits_list_values"
+        android:key="speedUnits_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_speed_display_units" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_title_cel_fah"
+        android:title="@string/pref_title_cel_fah" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_title_revamps"
+        android:title="@string/pref_title_revamps" />
+    <EditTextPreference
+        android:defaultValue="1"
+        android:key="edit_text_gps_interval"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_gps_interval" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_box_showspeed"
+        android:singleLine="false"
+        android:summary="@string/pref_gps_speed_summary"
+        android:title="@string/pref_gps_showSpeedOnMain" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_box_LogCellData"
+        android:title="@string/pref_gps_logCellData" />
+</PreferenceScreen>

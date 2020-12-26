@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtlvcr_cr_Title"
+        android:layout_width="129dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtlvcr_cr_Info"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toEndOf="@+id/txtlvcr_cr_Title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtlvcr_cr_Infomv"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/txtlvcr_cr_Info"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCellTitleA"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="-"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCellValueA"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="-"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/tvCellTitleA"
+        app:layout_constraintTop_toTopOf="@+id/tvCellTitleA" />
+
+    <TextView
+        android:id="@+id/tvCellTitleB"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="right"
+        android:text="-"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/tvCellValueB"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCellValueB"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="right"
+        android:text="-"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/tvCellRatingB"
+        app:layout_constraintTop_toTopOf="@+id/tvCellTitleB" />
+
+    <TextView
+        android:id="@+id/tvCellRatingA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="V"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/tvCellValueA"
+        app:layout_constraintTop_toTopOf="@+id/tvCellValueA" />
+
+    <TextView
+        android:id="@+id/tvCellRatingB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:gravity="right"
+        android:text="V"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvCellTitleB" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_menuSettings"
+        android:icon="@mipmap/appsettings"
+        android:title="@string/app_settings" />
+    <item
+        android:id="@+id/main_menuLog"
+        android:title="@string/app_log" />
+    <item
+        android:id="@+id/main_menuTroubleshoot"
+        android:title="@string/troubleshoot" />
+    <item
+        android:id="@+id/main_menuAbout"
+        android:icon="@mipmap/about"
+        android:title="@string/About" />
+</menu>
